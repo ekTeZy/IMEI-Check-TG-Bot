@@ -36,7 +36,7 @@ WHITELIST_USERS="123456789 987654321"
 ## Тестирование API
 Запусти test_request.py, чтобы проверить работу API:
 
-Структура проекта
+## Структура проекта
 ```bash
 telegram-imei-bot/
 │── app/
