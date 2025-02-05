@@ -2,7 +2,8 @@
 
 ## Описание
 
-Этот проект — Telegram-бот для проверки IMEI устройств. Бот принимает IMEI, отправляет запрос в API imeicheck.net и возвращает пользователю информацию об устройстве.
+Этот проект — Telegram-бот для проверки IMEI устройств. 
+Бот принимает IMEI, отправляет запрос в API imeicheck.net и возвращает пользователю информацию об устройстве.
 
 ## Запуск
 
@@ -25,7 +26,7 @@ flask run
 python bot.py
 ```
 ## Конфигурация .env
-Перед запуском заполни файл .env:
+Перед запуском заполните файл .env:
 ```bash
 BOT_TOKEN=your_telegram_bot_token
 IMEI_API_TOKEN=your_imei_api_token
@@ -34,7 +35,7 @@ LOCAL_API_URL=http://localhost:5000/api/check-imei
 WHITELIST_USERS="123456789 987654321"
 ```
 ## Тестирование API
-Запусти test_request.py, чтобы проверить работу API:
+### Запустите test_request.py, чтобы проверить работу API
 
 ## Структура проекта
 ```bash
